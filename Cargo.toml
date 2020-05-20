@@ -1,0 +1,10 @@
+[package]
+name = "rust_opencv_face_detect"
+version = "0.1.0"
+authors = ["Selcuk Arslan <me@sarslan.net>"]
+
+[lib]
+path ="./src/lib/lib.rs"
+
+[dependencies]
+opencv = {version = "0.36", features = ["buildtime-bindgen"]}

@@ -7,4 +7,4 @@ authors = ["Selcuk Arslan <me@sarslan.net>"]
 path ="./src/lib/lib.rs"
 
 [dependencies]
-opencv = {version = "0.36", features = ["buildtime-bindgen"]}
+opencv = {version = "0.36", default-features = false, features = ["opencv-4", "buildtime-bindgen"]}
